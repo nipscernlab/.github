@@ -12,11 +12,11 @@ Our activities focus on **High Energy Physics**, **scientific computing**, and *
 Our work spans the design and development of **software platforms, processor architectures, graphical interfaces, and research support tools**, including:
 
 - Institutional website: **nipscern.com**
-- **YANC** compilers and language tools
-- **AURORA** – integrated development environment
-- **POLARIS** – graphical interface for SAPHO
 - **SAPHO** – *Scalable Architecture Processor for Hardware Optimization*
+- **YANC** compilers and language tools
+- **POLARIS** – graphical interface for SAPHO
 - **CGV-WEB** – web-based calorimeter event viewer
+- **AURORA** – integrated development environment
 - Technical and scientific documentation
 
 Although many of our projects are software-centric, **NIPSCERN’s scope goes beyond software development**.  
@@ -25,3 +25,16 @@ We are actively involved in **system architecture design, hardware–software co
 A key aspect of NIPSCERN is the **direct involvement of undergraduate students**, who contribute to real research projects in **High Energy Physics** and scientific computing, in collaboration with **CERN** and its experiments.
 
 Our mission is to integrate engineering, software development, particle physics, art and logic into the creation of concrete tools, architectures, and systems that support scientific research and experimentation.
+
+---
+
+<p align="center">
+  <img src="https://github.com/nipscernlab/nipscernweb/blob/main/assets/icon-projects/sapho.svg" alt="SAPHO" width="120">
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://github.com/nipscernlab/nipscernweb/blob/main/assets/icon-projects/yanc.svg" alt="YANC" width="120">
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://github.com/nipscernlab/nipscernweb/blob/main/assets/icon-projects/polaris.svg" alt="POLARIS" width="120">
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://github.com/nipscernlab/nipscernweb/blob/main/assets/icon-projects/cgv-web.svg" alt="CGV-WEB" width="120">
+</p>
+
