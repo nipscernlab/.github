@@ -6,6 +6,9 @@
 
 # NIPSCERN
 
+[![Typing SVG](https://readme-typing-svg.demolab.com/?font=Roboto+Slab&size=22&pause=1200&color=00B4D8&center=true&vCenter=true&width=900&lines=Engineering%2C+software+development%2C+particle+physics%2C+art+and+logic;Building+concrete+tools%2C+architectures+and+systems+for+scientific+research)](https://git.io/typing-svg)
+
+
 **NIPSCERN** is a research and development organization based at the **Federal University of Juiz de Fora (UFJF), Brazil**, working in collaboration with **CERN**.  
 Our activities focus on **High Energy Physics**, **scientific computing**, and **high-performance hardware and software systems**.
 
