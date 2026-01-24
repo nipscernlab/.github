@@ -1,3 +1,9 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/nipscernlab/nipscernweb/main/assets/icons/icon_home_psychology.svg"
+       alt="NIPSCERN Icon"
+       width="160">
+</p>
+
 # NIPSCERN
 
 **NIPSCERN** is a research and development organization working in collaboration with **CERN**, with a focus on High Energy Physics, scientific computing, and high-performance systems.
