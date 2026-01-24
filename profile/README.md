@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/nipscernlab/nipscernweb/main/assets/icons/icon_home_psychology.svg"
+  <img src="https://raw.githubusercontent.com/nipscernlab/nipscernweb/main/assets/icons/icon_home_nipscern.svg"
        alt="NIPSCERN Icon"
        width="160">
 </p>
