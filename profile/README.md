@@ -11,7 +11,7 @@ Our activities focus on **High Energy Physics**, **scientific computing**, and *
 
 Our work spans the design and development of **software platforms, processor architectures, graphical interfaces, and research support tools**, including:
 
-- Institutional website: **nipscern.com**
+- **NIPSCERNWEB** Institutional website: **nipscern.com**
 - **SAPHO** – *Scalable Architecture Processor for Hardware Optimization*
 - **YANC** compilers and language tools
 - **POLARIS** – graphical interface for SAPHO
@@ -29,6 +29,8 @@ Our mission is to integrate engineering, software development, particle physics,
 ---
 
 <p align="center">
+  <img src="https://github.com/nipscernlab/nipscernweb/blob/main/assets/icon-projects/nipscernweb.svg" alt="NIPSCERNWEB" width="120">
+  &nbsp;&nbsp;&nbsp;
   <img src="https://github.com/nipscernlab/nipscernweb/blob/main/assets/icon-projects/sapho.svg" alt="SAPHO" width="120">
   &nbsp;&nbsp;&nbsp;
   <img src="https://github.com/nipscernlab/nipscernweb/blob/main/assets/icon-projects/yanc.svg" alt="YANC" width="120">
