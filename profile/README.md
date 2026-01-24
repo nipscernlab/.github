@@ -6,6 +6,8 @@
 
 # NIPSCERN
 
+![Tech Stack](https://github-widgetbox.vercel.app/api/skills?frameworks=tauri,rust,electron&includeNames=true&theme=viridescent)
+
 **NIPSCERN** is a research and development organization based at the **Federal University of Juiz de Fora (UFJF), Brazil**, working in collaboration with **CERN**.  
 Our activities focus on **High Energy Physics**, **scientific computing**, and **high-performance hardware and software systems**.
 
