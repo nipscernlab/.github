@@ -40,6 +40,5 @@ Our mission is to integrate engineering, software development, particle physics,
   &nbsp;&nbsp;&nbsp;
   <img src="https://github.com/nipscernlab/nipscernweb/blob/main/assets/icon-projects/polaris.svg" alt="POLARIS" width="120">
   &nbsp;&nbsp;&nbsp;
-  <img src="https://github.com/nipscernlab/nipscernweb/blob/main/assets/icon-projects/cgv-web.svg" alt="CGV-WEB" width="120">
+  <img src="https://github.com/nipscernlab/nipscernweb/blob/main/assets/icons/icon_cgv.svg" alt="CGV-WEB" width="120">
 </p>
-
