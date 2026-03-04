@@ -31,43 +31,19 @@ Our mission is to integrate engineering, software development, particle physics,
 
 ---
 <p align="center">
-
   <a href="https://github.com/nipscernlab/nipscernweb" target="_blank">
-    <img src="https://github.com/nipscernlab/nipscernweb/blob/main/assets/icon-projects/nipscernweb.svg"
-         alt="NIPSCERNWEB"
-         width="120">
+    <img src="https://github.com/nipscernlab/nipscernweb/blob/main/assets/icon-projects/nipscernweb.svg" alt="NIPSCERNWEB" width="120" style="vertical-align:middle;margin:0 12px;">
   </a>
-
-  &nbsp;&nbsp;&nbsp;
-
   <a href="https://github.com/nipscernlab/sapho" target="_blank">
-    <img src="https://github.com/nipscernlab/nipscernweb/blob/main/assets/icon-projects/sapho.svg"
-         alt="SAPHO"
-         width="120">
+    <img src="https://github.com/nipscernlab/nipscernweb/blob/main/assets/icon-projects/sapho.svg" alt="SAPHO" width="120" style="vertical-align:middle;margin:0 12px;">
   </a>
-
-  &nbsp;&nbsp;&nbsp;
-
   <a href="https://github.com/nipscernlab/yanc" target="_blank">
-    <img src="https://github.com/nipscernlab/nipscernweb/blob/main/assets/icon-projects/yanc.svg"
-         alt="YANC"
-         width="120">
+    <img src="https://github.com/nipscernlab/nipscernweb/blob/main/assets/icon-projects/yanc.svg" alt="YANC" width="120" style="vertical-align:middle;margin:0 12px;">
   </a>
-
-  &nbsp;&nbsp;&nbsp;
-
   <a href="https://github.com/nipscernlab/polaris" target="_blank">
-    <img src="https://github.com/nipscernlab/nipscernweb/blob/main/assets/icon-projects/polaris.svg"
-         alt="POLARIS"
-         width="120">
+    <img src="https://github.com/nipscernlab/nipscernweb/blob/main/assets/icon-projects/polaris.svg" alt="POLARIS" width="120" style="vertical-align:middle;margin:0 12px;">
   </a>
-
-  &nbsp;&nbsp;&nbsp;
-
   <a href="https://github.com/nipscernlab/cgv-web" target="_blank">
-    <img src="https://github.com/nipscernlab/nipscernweb/blob/main/assets/icons/icon_cgv.svg"
-         alt="CGV-WEB"
-         width="120">
+    <img src="https://github.com/nipscernlab/nipscernweb/blob/main/assets/icons/icon_cgv.svg" alt="CGV-WEB" width="120" style="vertical-align:middle;margin:0 12px;">
   </a>
-
 </p>
