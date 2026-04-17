@@ -32,28 +32,28 @@ Our mission is to integrate engineering, software development, particle physics,
 ---
 <p align="center">
   <a href="https://github.com/nipscernlab/nipscernweb" target="_blank" style="text-decoration:none;">
-    <img src="https://github.com/nipscernlab/nipscernweb/blob/main/assets/icon-projects/nipscernweb.svg"
+    <img src="https://github.com/nipscernlab/nipscernweb/blob/main/assets/icons/icon_home_nipscern.svg"
          alt="NIPSCERNWEB"
          width="120"
          style="vertical-align:middle;margin:0 12px;border:none;">
   </a>
 
   <a href="https://github.com/nipscernlab/sapho" target="_blank" style="text-decoration:none;">
-    <img src="https://github.com/nipscernlab/nipscernweb/blob/main/assets/icon-projects/sapho.svg"
+    <img src="https://github.com/nipscernlab/nipscernweb/blob/main/assets/icons/sapho.svg"
          alt="SAPHO"
          width="120"
          style="vertical-align:middle;margin:0 12px;border:none;">
   </a>
 
   <a href="https://github.com/nipscernlab/yanc" target="_blank" style="text-decoration:none;">
-    <img src="https://github.com/nipscernlab/nipscernweb/blob/main/assets/icon-projects/yanc.svg"
+    <img src="https://github.com/nipscernlab/nipscernweb/blob/main/assets/icons/yanc.svg"
          alt="YANC"
          width="120"
          style="vertical-align:middle;margin:0 12px;border:none;">
   </a>
 
   <a href="https://github.com/nipscernlab/polaris" target="_blank" style="text-decoration:none;">
-    <img src="https://github.com/nipscernlab/nipscernweb/blob/main/assets/icon-projects/polaris.svg"
+    <img src="https://github.com/nipscernlab/nipscernweb/blob/main/assets/icons/polaris.svg"
          alt="POLARIS"
          width="120"
          style="vertical-align:middle;margin:0 12px;border:none;">
