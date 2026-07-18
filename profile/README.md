@@ -4,7 +4,7 @@
        width="160">
 </p>
 
-# NIPS-CERN
+<h1 align="center">NIPS-CERN</h1>
 
 [![Typing SVG](https://readme-typing-svg.demolab.com/?font=Merriweather&size=22&pause=1200&color=39ff14&center=true&vCenter=true&width=1000&lines=Engineering%2C+software+development%2C+particle+physics%2C+art+and+logic;Building+concrete+tools%2C+architectures+and+systems+for+scientific+research;Designing+processors%2C+compilers%2C+and+scientific+workflows;From+CMM+code+to+RTL%2C+simulation%2C+and+visualization;Hardware+and+software+co-design+for+CERN-scale+experiments)](https://git.io/typing-svg)
 
