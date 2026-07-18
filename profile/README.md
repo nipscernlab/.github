@@ -8,7 +8,12 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com/?font=Merriweather&size=22&pause=1200&color=39ff14&center=true&vCenter=true&width=1000&lines=Engineering%2C+software+development%2C+particle+physics%2C+art+and+logic;Building+concrete+tools%2C+architectures+and+systems+for+scientific+research;Designing+processors%2C+compilers%2C+and+scientific+workflows;From+CMM+code+to+RTL%2C+simulation%2C+and+visualization;Hardware+and+software+co-design+for+CERN-scale+experiments)](https://git.io/typing-svg)
 
-NIPS-CERN is a research and development group based at the Federal University of Juiz de Fora (UFJF), Brazil, working in collaboration with CERN. Our activities focus on High Energy Physics, scientific computing, and high-performance hardware and software systems.
+NIPS-CERN is a research and development group working at the intersection of High Energy Physics, scientific computing, and high-performance hardware and software systems, in collaboration with CERN.
+
+We operate from two bases:
+
+- Route Salam, Geneva, Switzerland
+- Graduate Program in Electrical Engineering (PPEE), Federal University of Juiz de Fora (UFJF), Minas Gerais, Brazil
 
 We design and build processor architectures, compilers, graphical interfaces, FPGA-based instrumentation, and research support tools, including:
 
@@ -40,5 +45,6 @@ Our mission is to integrate engineering, software development, particle physics,
   <a href="https://github.com/nipscernlab/nipscernweb"><img src="https://github.com/nipscernlab/nipscernweb/blob/main/assets/icons/icon_home_nipscern.svg" alt="NIPS-CERNWEB" width="120"></a>
   <a href="https://github.com/nipscernlab/sapho"><img src="https://github.com/nipscernlab/nipscernweb/blob/main/assets/icons/sapho.svg" alt="SAPHO" width="120"></a>
   <a href="https://github.com/nipscernlab/yanc"><img src="https://github.com/nipscernlab/nipscernweb/blob/main/assets/icons/yanc.svg" alt="YANC" width="120"></a>
+  <a href="https://github.com/nipscernlab/hits"><img src="https://github.com/nipscernlab/nipscernweb/blob/main/assets/icons/hits-badge.svg" alt="HITS" width="120"></a>
   <a href="https://github.com/nipscernlab/cgv-web"><img src="https://github.com/nipscernlab/nipscernweb/blob/main/assets/icons/icon_cgv.svg" alt="CGV-WEB" width="120"></a>
 </p>
