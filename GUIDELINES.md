@@ -119,7 +119,7 @@ A weekly workflow in this repository audits the organization and keeps a single 
 
 An exception to these guidelines is recorded in an issue in the affected repository, with the reason and the date it ends.
 
-These guidelines change only by pull request to this repository, approved by an organization owner.
+These guidelines change only by pull request to this repository, approved by an organization owner other than its author.
 
 ## Open items
 
