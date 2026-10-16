@@ -2,7 +2,7 @@
 
 Status: draft under discussion by the organization owners. Nothing in this document is enforced yet.
 
-These guidelines apply to every public repository of the nipscernlab organization. Each repository may add rules of its own; it may not relax the rules here. Where a repository file and this document disagree, this document wins until one of them is changed by pull request.
+These guidelines apply to every public repository of the nipscernlab organization. They extend to private repositories once the organization is on a plan that enforces rules there. Each repository may add rules of its own; it may not relax the rules here. Where a repository file and this document disagree, this document wins until one of them is changed by pull request.
 
 ## 1. Scope and principles
 
@@ -21,7 +21,7 @@ The guidelines exist so that no release leaves with stale documentation, failing
 
 English is the source language for code, comments, commit messages, documentation and these guidelines.
 
-Portuguese documentation is a translation of the English source. Every translation records the version of the source it was made from, and CI warns when the source has moved and the translation has not. A person other than the author of the English text reviews each translation before it is published. Machine translation may produce a first draft; it never publishes.
+Portuguese documentation is a translation of the English source. Every translation records the version of the source it was made from, and CI warns on every pull request when the source has moved and the translation has not. At release the warning becomes a block, as section 5 says. A person other than the author of the English text reviews each translation before it is published. Machine translation may produce a first draft; it never publishes.
 
 ## 3. Documentation
 
@@ -30,7 +30,7 @@ Every repository contains:
 | File | Purpose |
 |---|---|
 | `README.md` | What the project is, how to install it, how to use it |
-| `LICENSE` | The license; it cannot be inherited from this repository |
+| `LICENSE` | The licence; it cannot be inherited from this repository |
 | `CHANGELOG.md` | Generated from commits at each release |
 | `CODEOWNERS` | The maintainer responsible for the repository |
 | `AGENTS.md` | Instructions for coding agents, from the template in this repository |
@@ -46,7 +46,7 @@ Commit messages follow [Conventional Commits](https://www.conventionalcommits.or
 
 Members of the laboratory work on a branch of the repository, named `<login>/<topic>`, and reach `main` through a pull request. Forks are for contributors from outside the laboratory: a pull request from a fork runs without the repository secrets and does not get the same checks.
 
-History on `main` is never rewritten.
+History on `main` is never rewritten. The one exception is removing a leaked credential, as section 9 describes, recorded as in section 10.
 
 ## 5. Releases and the publication gate
 
@@ -94,7 +94,7 @@ Two-factor authentication is required for every account with access to the organ
 - the required CI checks pass;
 - no direct push, force push or branch deletion.
 
-A pull request from anyone other than an owner also needs the approval of an owner before it is merged. The maintainer named in `CODEOWNERS` is requested automatically.
+Owners merge their own pull requests once the required checks pass; GitHub does not let an author approve their own pull request. A pull request from anyone else also needs the approval of someone who knows the project: the maintainer named in the repository `CODEOWNERS`, who is requested automatically. What does not depend on knowing the project, such as tests, documentation and the publication gate, is checked by CI. A change to `CODEOWNERS` is approved by an organization owner, so that nobody names themselves maintainer.
 
 Coding agents follow the same rules as the people who run them. An agent does not merge, push to `main`, or change repository settings or rules.
 
@@ -109,7 +109,7 @@ Every repository has:
 - private vulnerability reporting, as described in [SECURITY.md](SECURITY.md);
 - third-party GitHub Actions pinned to a commit SHA, and workflow tokens with the least permission they need.
 
-Every release lists its third-party components and their licenses. A repository that redistributes third-party tools, such as the SAPHO bundle, checks their licenses against the source before each release.
+Every release lists its third-party components and their licences. A repository that redistributes third-party tools, such as the SAPHO bundle, checks their licences against the source before each release.
 
 Data from the ATLAS collaboration enters a public repository only under the collaboration policy. This includes detector geometry. Records of people, accounts and papers under submission are kept outside public repositories.
 

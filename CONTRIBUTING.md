@@ -32,7 +32,7 @@ A pull request describes what changed, why, and how it was tested. It links the 
 It is merged when:
 
 - every required CI check passes;
-- an organization owner has approved it, for contributors who are not owners;
+- the maintainer named in the repository `CODEOWNERS` has approved it, for contributors who are not organization owners;
 - the documentation describes the change, in English, and in Portuguese where the repository keeps a translation.
 
 Review comments are answered with a new commit or a reply, not by force-pushing over the history of the pull request.
@@ -43,7 +43,7 @@ You may use a coding agent. You answer for what it writes as if you had written 
 
 ## Licensing
 
-By contributing, you agree that your contribution is distributed under the license of the repository you contribute to, in its `LICENSE` file.
+By contributing, you agree that your contribution is distributed under the licence of the repository you contribute to, in its `LICENSE` file.
 
 ## Security
 
