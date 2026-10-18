@@ -6,6 +6,10 @@ This guide covers everything the laboratory writes in its repositories: document
 
 What we write is read by people who were not in the conversation that produced it, in laboratories that are not ours, and by agents that cannot ask what a sentence meant. Every rule here exists for them.
 
+## English spelling
+
+English text uses British spelling: colour, behaviour, centre, licence (the noun), artefact, catalogue, and -ise endings such as summarise and organise, as SOLAR and ZENITH already enforce. Names fixed by a product or a project keep their own spelling: a GitHub "organization", or the "Optimization" in the name of SAPHO. So do identifiers fixed by a library or a tool.
+
 ## Write plainly
 
 Start with the answer. Do not announce what is coming and do not summarise what was just said.
@@ -82,7 +86,3 @@ A translation is reviewed by a person other than the author of the English text,
 ## What the tools check
 
 Each repository runs, in CI and in both languages, a spell checker and a Markdown linter, and blocks the build on their errors. Words the spell checker does not know are added to the repository word list with a reason, never silenced in place.
-
-## Open items
-
-- Which English spelling the laboratory uses. SOLAR and ZENITH use British English and enforce it; other repositories have no rule. Until this is decided, each repository uses one spelling consistently and records it in its spell checker configuration.

@@ -1,7 +1,7 @@
 <!--
 Template for the AGENTS.md of a nipscernlab repository.
 Copy it to the root of the repository as AGENTS.md, replace every <placeholder>, and delete this comment.
-Also add a CLAUDE.md at the root whose only line is: @AGENTS.md
+Also add a CLAUDE.md at the root whose first line is @AGENTS.md, followed only by what is specific to Claude.
 Keep the section "Rules of the laboratory" as it is: it is the same in every repository.
 -->
 
@@ -37,7 +37,7 @@ It runs what CI runs, in the same order. It is green before every push.
 These come from the [nipscernlab guidelines](https://github.com/nipscernlab/.github/blob/main/GUIDELINES.md) and the [writing style](https://github.com/nipscernlab/.github/blob/main/STYLE.md). They apply to people and agents alike.
 
 1. Work on a branch of this repository named `<login>/<topic>`, and reach `main` through a pull request. Nobody pushes to `main` directly.
-2. A pull request is merged only when the required CI checks pass. A pull request from anyone other than an organization owner also needs an owner's approval. If you need a merge, ask the maintainer.
+2. A pull request is merged only when the required CI checks pass. A pull request from anyone other than an organization owner also needs the approval of the maintainer named in `CODEOWNERS`. If you need a merge, ask the maintainer.
 3. Commit messages follow [Conventional Commits](https://www.conventionalcommits.org/). The body says why.
 4. Code and documentation move together. If a change makes a sentence in the README, the manual or any document untrue, the same pull request fixes it. An outdated document is a defect, like a failing test.
 5. Every change comes with the tests that show it works.
