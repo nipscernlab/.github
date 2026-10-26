@@ -68,5 +68,6 @@ The people who work in the laboratory, kept in sync with [`data/team.json`](http
   <a href="https://github.com/nipscernlab/yanc"><img src="https://github.com/nipscernlab/nipscernweb/blob/main/assets/icons/yanc.svg" alt="YANC" width="120"></a>
   <a href="https://github.com/nipscernlab/hits"><img src="https://github.com/nipscernlab/nipscernweb/blob/main/assets/icons/hits-badge.svg" alt="HITS" width="120"></a>
   <a href="https://github.com/nipscernlab/cgv-web"><img src="https://github.com/nipscernlab/nipscernweb/blob/main/assets/icons/icon_cgv.svg" alt="CGV" width="120"></a>
+  <a href="https://github.com/nipscernlab/xCGV"><img src="https://cdn.nipscern.com/images/brand/xcgv-logo-v1.webp" alt="xCGV" width="120"></a>
   <a href="https://github.com/nipscernlab/aurora"><img src="https://github.com/nipscernlab/nipscernweb/blob/main/assets/icons/aurora.svg" alt="AURORA" width="120"></a>
 </p>
