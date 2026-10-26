@@ -8,6 +8,14 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com/?font=Merriweather&size=22&pause=1200&color=39ff14&center=true&vCenter=true&width=1000&lines=Engineering%2C+software+development%2C+particle+physics%2C+art+and+logic;Building+concrete+tools%2C+architectures+and+systems+for+scientific+research;Designing+processors%2C+compilers%2C+and+scientific+workflows;From+CMM+code+to+RTL%2C+simulation%2C+and+visualization;Hardware+and+software+co-design+for+CERN-scale+experiments)](https://git.io/typing-svg)
 
+<p align="center">
+  <a href="https://www.nipscern.com"><img src="https://img.shields.io/badge/website-nipscern.com-39ff14?style=flat-square" alt="nipscern.com"></a>
+  <a href="https://github.com/nipscernlab/sapho/releases/latest"><img src="https://img.shields.io/github/v/release/nipscernlab/sapho?label=SAPHO&style=flat-square&color=39ff14" alt="SAPHO release"></a>
+  <a href="https://github.com/nipscernlab/aurora/releases/latest"><img src="https://img.shields.io/github/v/release/nipscernlab/aurora?label=AURORA&style=flat-square&color=39ff14" alt="AURORA release"></a>
+  <a href="https://github.com/nipscernlab/yanc/releases/latest"><img src="https://img.shields.io/github/v/release/nipscernlab/yanc?label=YANC&style=flat-square&color=39ff14" alt="YANC release"></a>
+  <a href="https://github.com/nipscernlab/cgv-web/releases/latest"><img src="https://img.shields.io/github/v/release/nipscernlab/cgv-web?label=CGV&style=flat-square&color=39ff14" alt="CGV release"></a>
+</p>
+
 NIPS-CERN is a research and development group working at the intersection of High Energy Physics, scientific computing, and high-performance hardware and software systems, in collaboration with CERN.
 
 We operate from two bases:
