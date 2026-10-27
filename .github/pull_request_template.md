@@ -12,7 +12,7 @@ Resolves #
 
 - [ ] CI is green, and I ran locally the command `AGENTS.md` lists before pushing.
 - [ ] The change comes with the tests that show it works.
-- [ ] Code and documentation moved together: every document this change makes untrue (README, manual, `CHANGELOG.md`, `AGENTS.md`, guides) is updated in this pull request. If none needed to change, I say why above.
+- [ ] Code and documentation moved together: every document this change makes untrue (README, manual, `AGENTS.md`, guides) is updated in this pull request. If none needed to change, I say why above. `CHANGELOG.md` is not edited by hand: it is generated from the commits at release.
 - [ ] Commit messages follow [Conventional Commits](https://www.conventionalcommits.org/), with the why in the body.
 - [ ] No credential, and no data from the ATLAS collaboration outside its policy, is in the diff.
 - [ ] If a coding agent wrote part of this, I read and answer for all of it.
