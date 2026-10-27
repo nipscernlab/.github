@@ -1,0 +1,44 @@
+name: Weekly audit
+
+# Section 10 of GUIDELINES.md: once a week, read the state of the organization
+# and keep a single issue in this repository up to date. The reads go through
+# the nipscernlab-audit GitHub App, which only has read permissions; the issue
+# is written with the workflow token, which can only touch this repository.
+
+on:
+  schedule:
+    - cron: "0 6 * * 1" # Mondays, 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: audit
+  cancel-in-progress: false
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - id: app
+        uses: actions/create-github-app-token@64ab729a6294000f5aa4a4bc0b73d1f32bc45510 # v3.3.0
+        with:
+          # app-id is deprecated in favour of client-id; switch when the
+          # App's client ID is stored as a variable.
+          app-id: ${{ vars.AUDIT_APP_ID }}
+          private-key: ${{ secrets.AUDIT_APP_PRIVATE_KEY }}
+          owner: ${{ github.repository_owner }}
+
+      - uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9.0.0
+        env:
+          APP_TOKEN: ${{ steps.app.outputs.token }}
+        with:
+          script: |
+            const audit = require('./.github/scripts/audit.js')
+            await audit({ github, context, core, getOctokit })
