@@ -43,13 +43,21 @@ Our mission is to integrate engineering, software development, particle physics,
 
 The people who work in the laboratory, kept in sync with [`data/team.json`](https://github.com/nipscernlab/nipscernweb/blob/main/data/team.json), the same source as [nipscern.com/about](https://www.nipscern.com/about).
 
-**Coordinator:** [Luciano Manhães de Andrade Filho](https://github.com/lucianomaf).
+### Coordinator
 
-**Co-advisors:** [Eder Barboza Kapisch](https://github.com/EderKapisch), Tiago Motta Quirino, Gustavo Barbosa Libotte, Bernardo Sotto-Maior Peralva.
+[Luciano Manhães de Andrade Filho](https://github.com/lucianomaf).
 
-**Researchers:** [Chrysthofer Arthur Amaro Afonso](https://github.com/Chrysthofer), Fábio Cardani Luna, Melissa Santos Aguiar, Dabson Ferreira dos Santos, Leandro da Graça Ribeiro, Tiago Aparecido Teixeira, Ualison Rodrigo Ferreira Dias, Mateus Hufnagel Maranha de Faria, [Nelson Cevidanes Nascimento de Assis](https://github.com/ncevidanes), Kinn Belarmino Batista Dias, [Thiago Campos Acácio Paschoalin](https://github.com/thiagopaschoalin).
+### Co-advisors
 
-**Undergraduate researchers:** [Ana Luíza Gonçalves Figueiredo](https://github.com/ana-fig), [Vinicius Pires Diniz de Oliveira](https://github.com/viniciuspires12), [Ana Luiza Bernardes Pereira de Carvalho](https://github.com/abernardescarvalho), [Leon Felipe Guedim Millani](https://github.com/LeonMillani), [Pedro Henrique Sereno Romeu dos Santos](https://github.com/PedroRomeu), [João Pedro de Souza Salomé](https://github.com/joaopedrosalome-sketch), [Daniela Mendes Nepomuceno](https://github.com/Dani-Mendes), [Arthur Araújo Martins](https://github.com/ART3121), [Heitor Duarte Balthazar](https://github.com/heitorblthzr), [Sabrina de Oliveira Amaral](https://github.com/sabrina-amaral), [Clethie Sediacias Bisseyou Ngatsono](https://github.com/ClethieB-cmd), [Felipe Augusto de Oliveira França](https://github.com/felipeaugustoof), [Dênis Magno Carvalho de Oliveira](https://github.com/dMagn0), Carlos Eduardo da Costa Oliveira.
+[Eder Barboza Kapisch](https://github.com/EderKapisch), Tiago Motta Quirino, Gustavo Barbosa Libotte, Bernardo Sotto-Maior Peralva.
+
+### Researchers
+
+[Chrysthofer Arthur Amaro Afonso](https://github.com/Chrysthofer), Fábio Cardani Luna, Melissa Santos Aguiar, Dabson Ferreira dos Santos, Leandro da Graça Ribeiro, Tiago Aparecido Teixeira, Ualison Rodrigo Ferreira Dias, Mateus Hufnagel Maranha de Faria, [Nelson Cevidanes Nascimento de Assis](https://github.com/ncevidanes), Kinn Belarmino Batista Dias, [Thiago Campos Acácio Paschoalin](https://github.com/thiagopaschoalin).
+
+### Undergraduate researchers
+
+[Ana Luíza Gonçalves Figueiredo](https://github.com/ana-fig), [Vinicius Pires Diniz de Oliveira](https://github.com/viniciuspires12), [Ana Luiza Bernardes Pereira de Carvalho](https://github.com/abernardescarvalho), [Leon Felipe Guedim Millani](https://github.com/LeonMillani), [Pedro Henrique Sereno Romeu dos Santos](https://github.com/PedroRomeu), [João Pedro de Souza Salomé](https://github.com/joaopedrosalome-sketch), [Daniela Mendes Nepomuceno](https://github.com/Dani-Mendes), [Arthur Araújo Martins](https://github.com/ART3121), [Heitor Duarte Balthazar](https://github.com/heitorblthzr), [Sabrina de Oliveira Amaral](https://github.com/sabrina-amaral), [Clethie Sediacias Bisseyou Ngatsono](https://github.com/ClethieB-cmd), [Felipe Augusto de Oliveira França](https://github.com/felipeaugustoof), [Dênis Magno Carvalho de Oliveira](https://github.com/dMagn0), Carlos Eduardo da Costa Oliveira.
 
 ## Explore our work
 
