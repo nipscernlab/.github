@@ -117,7 +117,7 @@ Data from the ATLAS collaboration enters a public repository only under the coll
 
 ## 10. Enforcement and audit
 
-A weekly workflow in this repository audits the organization and keeps a single issue up to date: members, collaborators, permissions, two-factor status and rulesets compared with the access list; required files in each repository; open vulnerabilities by severity and age; manuals behind their software; tokens and signing certificates close to expiry.
+A weekly workflow in this repository audits the organization and keeps a single issue up to date: members, collaborators, permissions, two-factor status and rulesets compared with the access list; required files in each repository; open vulnerabilities by severity and age; manuals behind their software; tokens and signing certificates close to expiry. The issue is public, so it counts people instead of naming them and leaves private repositories out; the owners read the details in the organization settings.
 
 An exception to these guidelines is recorded in an issue in the affected repository, with the reason and the date it ends.
 
