@@ -1,7 +1,5 @@
 # Security policy
 
-Status: draft under discussion by the organization owners.
-
 This policy applies to every repository of the nipscernlab organization that does not have its own `SECURITY.md`.
 
 ## Reporting a vulnerability

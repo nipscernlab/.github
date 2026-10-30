@@ -1,6 +1,6 @@
 # nipscernlab repository guidelines
 
-Status: draft under discussion by the organization owners. Nothing in this document is enforced yet.
+Status: in force. The open items at the end are not part of the guidelines until they are decided. Where a repository does not yet meet a rule, the weekly audit issue described in section 10 shows the gap, and closing it is tracked in issues like any other work.
 
 These guidelines apply to every public repository of the nipscernlab organization. They extend to private repositories once the organization is on a plan that enforces rules there. Each repository may add rules of its own; it may not relax the rules here. Where a repository file and this document disagree, this document wins until one of them is changed by pull request.
 
@@ -88,13 +88,15 @@ Documentation, comments, commit messages and issues follow [STYLE.md](STYLE.md),
 
 The organization owners administer the organization. Only owners are members; everyone else takes part as an outside collaborator, with write access only to the repositories of their project. The base permission of the organization is read. Only owners create repositories.
 
-Two-factor authentication is required for every account with access to the organization. The requirement is announced with a deadline before it takes effect, because GitHub removes accounts without it.
+Two-factor authentication is required for every account with access to the organization, and the organization enforces it. A member without it keeps the membership but reaches no repository; an outside collaborator without it is removed. Anyone about to be added enables it first.
 
-`main` is protected in every repository, with no exceptions for anyone:
+`main` is protected in every repository:
 
 - changes reach `main` only through a pull request;
 - the required CI checks pass;
 - no direct push, force push or branch deletion.
+
+Organization owners can bypass this protection for an emergency only, as principle 4 allows: a fix that cannot wait while a required check is broken by something outside the repository, or the removal of a leaked credential. Each bypass is recorded the same day in an issue in the repository, with the reason, as section 10 describes. A coding agent never bypasses.
 
 Owners merge their own pull requests once the required checks pass; GitHub does not let an author approve their own pull request. A pull request from anyone else also needs the approval of someone who knows the project: the maintainer named in the repository `CODEOWNERS`, who is requested automatically. What does not depend on knowing the project, such as tests, documentation and the publication gate, is checked by CI. A change to `CODEOWNERS` is approved by an organization owner, so that nobody names themselves maintainer.
 
@@ -129,5 +131,4 @@ These points are not yet decided and are not part of the guidelines until they a
 
 - whether commits produced with AI assistance carry a co-author line, and its exact form;
 - the deadline to fix a vulnerability, by severity;
-- the date the two-factor requirement takes effect;
 - the link to the laboratory API standard, once published.
