@@ -38,7 +38,7 @@ These come from the [nipscernlab guidelines](https://github.com/nipscernlab/.git
 
 1. Work on a branch of this repository named `<login>/<topic>`, and reach `main` through a pull request. Nobody pushes to `main` directly.
 2. A pull request is merged only when the required CI checks pass. A pull request from anyone other than an organization owner also needs the approval of the maintainer named in `CODEOWNERS`. If you need a merge, ask the maintainer.
-3. Commit messages follow [Conventional Commits](https://www.conventionalcommits.org/). The body says why.
+3. Commit messages follow [Conventional Commits](https://www.conventionalcommits.org/). The body says why. A commit or pull request description carries no co-author line or other mention of the agent or its model (organization guidelines, section 4).
 4. Code and documentation move together. If a change makes a sentence in the README, the manual or any document untrue, the same pull request fixes it. An outdated document is a defect, like a failing test.
 5. Every change comes with the tests that show it works.
 6. No credential enters the repository: no password, API key, token, connection string or private key. A credential that reaches a commit is reported at once so it can be revoked.
