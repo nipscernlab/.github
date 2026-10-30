@@ -46,7 +46,7 @@ Work to be done is tracked in issues, not in files: a defect, a planned change, 
 
 Commit messages follow [Conventional Commits](https://www.conventionalcommits.org/), checked in CI. The version number and the changelog are derived from them, so a wrong type produces a wrong release.
 
-A commit names only the people who made it. It carries no co-author line or other mention of an AI tool, whatever the share of the work the tool did: the person who commits answers for the change, as for any other tool. Agents and their settings are configured so that they add no such line.
+A commit names only the people who made it. It carries no co-author line or other mention of an AI tool, whatever the share of the work the tool did: the person who commits answers for the change, as for any other tool. The same holds for pull request descriptions. Each repository keeps a shared `.claude/settings.json` that turns this attribution off in Claude Code, and other agents are configured to the same effect.
 
 Members of the laboratory work on a branch of the repository, named `<login>/<topic>`, and reach `main` through a pull request. Forks are for contributors from outside the laboratory: a pull request from a fork runs without the repository secrets and does not get the same checks.
 
