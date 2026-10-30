@@ -1,7 +1,5 @@
 # Contributing to nipscernlab
 
-Status: draft under discussion by the organization owners.
-
 This is the default contributing guide for every repository of the nipscernlab organization. A repository with its own `CONTRIBUTING.md` uses that one instead; read it first if it exists, and read the repository `AGENTS.md`, which says how that project is built and tested.
 
 The rules behind this guide are in the [guidelines](GUIDELINES.md). How we write is in [STYLE.md](STYLE.md).
