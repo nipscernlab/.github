@@ -23,7 +23,7 @@ Contributors from outside the laboratory fork the repository, follow the same st
 
 ## Commits
 
-Commit messages follow [Conventional Commits](https://www.conventionalcommits.org/): a type, an optional scope and a lower case imperative subject, then a body that says why. CI checks the format, and releases are built from it, so a wrong type produces a wrong version.
+Commit messages follow [Conventional Commits](https://www.conventionalcommits.org/): a type, an optional scope and a lower case imperative subject, then a body that says why. Releases are built from the format, so a wrong type produces a wrong version. The guidelines ask every repository to check it in CI; where a repository does not yet, the reviewer checks it.
 
 ## The pull request
 
@@ -39,7 +39,7 @@ Review comments are answered with a new commit or a reply, not by force-pushing 
 
 ## Coding agents
 
-You may use a coding agent. You answer for what it writes as if you had written it. The agent follows the repository `AGENTS.md`, and it never merges, pushes to `main` or changes repository settings.
+You may use a coding agent. You answer for what it writes as if you had written it. The agent follows the repository `AGENTS.md`. It never pushes to `main` or changes repository settings, and it merges a pull request only as section 8 of the [guidelines](GUIDELINES.md) allows: with the explicit authorisation of the person running it, given in its session, for that one pull request.
 
 ## Licensing
 
