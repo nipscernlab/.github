@@ -1,7 +1,5 @@
 # Writing style
 
-Status: draft under discussion by the organization owners.
-
 This guide covers everything the laboratory writes in its repositories: documentation, manuals, READMEs, code comments, commit messages, issues and pull requests. It applies in English and in Portuguese. A repository may add rules of its own; it may not relax these.
 
 What we write is read by people who were not in the conversation that produced it, in laboratories that are not ours, and by agents that cannot ask what a sentence meant. Every rule here exists for them.
