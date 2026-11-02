@@ -13,7 +13,7 @@ This file is the entry point for anyone who changes this repository, a person or
 
 <One paragraph: what the project does, who uses it, and what it depends on.>
 
-The maintainer is named in [`CODEOWNERS`](CODEOWNERS).
+The organization owner responsible for the project is named in [`CODEOWNERS`](CODEOWNERS).
 
 ## The one command
 
@@ -36,8 +36,8 @@ It runs what CI runs, in the same order. It is green before every push.
 
 These come from the [nipscernlab guidelines](https://github.com/nipscernlab/.github/blob/main/GUIDELINES.md) and the [writing style](https://github.com/nipscernlab/.github/blob/main/STYLE.md). They apply to people and agents alike.
 
-1. Work on a branch of this repository named `<login>/<topic>`, and reach `main` through a pull request. Nobody pushes to `main` directly.
-2. A pull request is merged only when the required CI checks pass. A pull request from anyone other than an organization owner also needs the approval of the maintainer named in `CODEOWNERS`. If you need a merge, ask the maintainer.
+1. Work on a branch named `<login>/<topic>`: in this repository if you are an organization owner, in your personal fork otherwise. Reach `main` through a pull request. Nobody pushes to `main` directly.
+2. Only the organization owners merge, once the required CI checks pass. A pull request from anyone else is reviewed first by the owner named in `CODEOWNERS`. If you need a merge, ask that owner.
 3. Commit messages follow [Conventional Commits](https://www.conventionalcommits.org/). The body says why.
 4. Code and documentation move together. If a change makes a sentence in the README, the manual or any document untrue, the same pull request fixes it. An outdated document is a defect, like a failing test.
 5. Every change comes with the tests that show it works.
