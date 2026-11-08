@@ -1,0 +1,4 @@
+# Reference rustfmt configuration of nipscernlab, GUIDELINES.md section 6.
+max_width = 100
+tab_spaces = 4
+newline_style = "Unix"

@@ -1,0 +1,10 @@
+# Reference Ruff configuration of nipscernlab, GUIDELINES.md section 6.
+line-length = 100
+indent-width = 4
+
+[lint]
+select = ["E", "F", "W", "I", "B", "UP"]
+
+[format]
+quote-style = "double"
+line-ending = "lf"
