@@ -46,6 +46,8 @@ Work to be done is tracked in issues, not in files: a defect, a planned change, 
 
 Commit messages follow [Conventional Commits](https://www.conventionalcommits.org/), checked in CI. The version number and the changelog are derived from them, so a wrong type produces a wrong release.
 
+A commit names only the people who made it. It carries no co-author line or other mention of an AI tool, whatever the share of the work the tool did: the person who commits answers for the change, as for any other tool. The same holds for pull request descriptions. Each repository keeps a shared `.claude/settings.json` that turns this attribution off in Claude Code, and other agents are configured to the same effect.
+
 Organization owners work on a branch of the repository, named `<login>/<topic>`, and reach `main` through a pull request. Everyone else, students of the laboratory included, works on a branch of a personal fork and opens the pull request from it. A workflow run by a pull request from a fork gets no repository secrets and a read-only `GITHUB_TOKEN`, so a check that needs a secret does not run on it.
 
 History on `main` is never rewritten. The one exception is removing a leaked credential, as section 9 describes, recorded as in section 10.
@@ -148,6 +150,5 @@ These guidelines change only by pull request to this repository, approved by an 
 
 These points are not yet decided and are not part of the guidelines until they are:
 
-- whether commits produced with AI assistance carry a co-author line, and its exact form;
 - the deadline to fix a vulnerability, by severity;
 - the link to the laboratory API standard, once published.
