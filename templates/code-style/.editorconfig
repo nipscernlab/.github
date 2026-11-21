@@ -1,0 +1,25 @@
+# Reference EditorConfig of nipscernlab, GUIDELINES.md section 6.
+# Copy to the root of the repository. shfmt also reads the [*.sh] section.
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = space
+indent_size = 4
+max_line_length = 100
+
+[*.{json,jsonc,yml,yaml,html,htm,css,scss,md,markdown}]
+indent_size = 2
+
+[*.{bat,cmd}]
+end_of_line = crlf
+
+[{Makefile,makefile,GNUmakefile,*.mk}]
+indent_style = tab
+
+[*.sh]
+switch_case_indent = true
+binary_next_line = true

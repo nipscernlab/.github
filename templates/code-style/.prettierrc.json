@@ -1,0 +1,16 @@
+{
+  "printWidth": 100,
+  "tabWidth": 4,
+  "useTabs": false,
+  "semi": true,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "arrowParens": "always",
+  "endOfLine": "lf",
+  "overrides": [
+    {
+      "files": ["*.json", "*.jsonc", "*.yml", "*.yaml", "*.html", "*.htm", "*.css", "*.scss", "*.md"],
+      "options": { "tabWidth": 2 }
+    }
+  ]
+}

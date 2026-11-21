@@ -1,0 +1,9 @@
+# Reference clang-tidy configuration of nipscernlab, GUIDELINES.md section 6.
+# Every warning fails the build. A check is disabled here with a comment that says why.
+Checks: >
+  clang-analyzer-*,
+  bugprone-*,
+  performance-*,
+  -bugprone-easily-swappable-parameters
+WarningsAsErrors: '*'
+HeaderFilterRegex: '.*'
