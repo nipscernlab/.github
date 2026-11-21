@@ -80,6 +80,25 @@ Each repository defines its own tests. The common minimum is:
 
 Each repository should offer a single local command that runs what CI runs. Steps common to all repositories, such as commit linting, release automation and security scanning, live in reusable workflows in this repository.
 
+The formatter and the linter of each language are the same in every repository, so that code reads the same across the organization and a review never discusses layout:
+
+| Language | Formatter | Linter |
+|---|---|---|
+| C and C++ | clang-format | clang-tidy |
+| Verilog and SystemVerilog | verible-verilog-format | verible-verilog-lint |
+| JavaScript, TypeScript, CSS, HTML and JSON | Prettier | ESLint, for JavaScript and TypeScript |
+| Python | ruff format | ruff check |
+| Rust | rustfmt | clippy |
+| Shell | shfmt | ShellCheck |
+| PowerShell | PSScriptAnalyzer | PSScriptAnalyzer |
+| Markdown | none | markdownlint, as [STYLE.md](STYLE.md) asks |
+
+Code is indented with four spaces. JSON, YAML, HTML, CSS and Markdown are indented with two, and Makefiles with tabs. A line holds at most 100 characters. Every text file is UTF-8, ends with a newline, has no trailing whitespace and uses LF line endings, except Windows batch files, which use CRLF. Lex, Yacc and Tcl have no formatter here and follow the same indentation.
+
+The reference configuration of each tool is in [templates/code-style](templates/code-style). A repository copies it and may tighten it; loosening it is an exception, recorded as section 10 says. CI runs each formatter in check mode, so a file the formatter would change fails the build. Third-party and generated code is listed as excluded in the configuration, not reformatted.
+
+A repository adopts the formatters in a pull request that only reformats and changes nothing else. The reformatting commit is listed in `.git-blame-ignore-revs`, so that `git blame` skips it.
+
 ## 7. Writing style
 
 Documentation, comments, commit messages and issues follow [STYLE.md](STYLE.md), in both languages.
